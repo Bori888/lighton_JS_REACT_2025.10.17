@@ -7,9 +7,9 @@ export default function Jatekter(props) {
       <h2>Jatéktér</h2>
       <div className="Jatekter">
         {
-          props.lista.map((adat, index) => {
+          props.lista.map((szin, index) => {
             return (
-              <Lampa adat={adat} key={index} />
+              <Lampa szin={szin} key={index} />
             )
           })
         }

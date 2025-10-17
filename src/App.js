@@ -5,10 +5,9 @@ import Footer from './components/Footer';
 import { useState } from "react";
 
 function App() {
-let sz1 = { backgroundColor: 'blue' };
-let sz2 = { backgroundColor: 'green' };
 
-const [lista, setLista] = useState([sz1, sz2, sz1, sz2, sz1, sz2, sz1, sz2, sz1]);
+
+const [lista, setLista] = useState(['blue', 'blue', 'blue', 'blue', 'blue', 'blue','blue', 'blue', 'blue']);
 
 
 

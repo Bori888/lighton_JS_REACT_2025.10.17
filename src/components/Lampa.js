@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Lampa.css"
-export default function Lampa() {
+export default function Lampa(props) {
   return (
-    <div className="Lampa"></div>
+    <div className="Lampa" style={{ backgroundColor: props.szin }}></div>
   )
 }
