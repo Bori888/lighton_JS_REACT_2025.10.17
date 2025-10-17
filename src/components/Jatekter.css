@@ -1,0 +1,20 @@
+.Jatekter {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw;
+    gap: 1vw;
+    width: 62vw;
+    margin: auto;
+}
+
+.Lampa {
+    font-size: 13vw;
+    width: 13vw;
+    height: 13vw;
+    border: 3px solid black;
+    border-radius: 50%; 
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
